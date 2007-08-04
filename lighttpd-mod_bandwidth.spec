@@ -1,4 +1,5 @@
 Summary:	Bandwidth tracking and limiting plugin for lighttpd
+Summary(pl.UTF-8):	Wtyczka dla lighttpd śledząca i ograniczająca pasmo
 Name:		lighttpd-mod_bandwidth
 Version:	0.8
 Release:	0.1
@@ -14,12 +15,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 mod_bandwidth is a bandwidth tracking and limiting plugin for
-lighttpd. It allows for limiting on a per-context basis and for any
+lighttpd. It allows limiting on a per-context basis and for any
 arbitrary period of time or bandwidth. It is intended to be accurate
 bit-for-bit for any data sent from the server, despite large amounts
-of data being transferred. It also allows for users to track the
+of data being transferred. It also allows users to track the
 bandwidth used by their sites and get real-time feedback of how close
 they are to their limits.
+
+%description -l pl.UTF-8
+mod_bandwidth to wtyczka dla lighttpd śledząca i ograniczająca pasmo.
+Pozwala ograniczać w zależności od kontekstu i dla dowolnego okresu
+czasu lub pasma. Ma być dokładna co do bitu dla wszystkich danych
+wysyłanych z serwera, niezależnie od ilości przesłanych danych.
+Pozwala także użytkownikom śledzić pasmo wykorzystywane przez ich
+serwisy i uzyskiwać w czasie rzeczywistym informacje, na ile zbliżają
+się do swoich limitów.
 
 %prep
 %setup -q -n mod_bandwidth-%{version}
