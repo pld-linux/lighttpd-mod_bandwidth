@@ -6,7 +6,7 @@ Release:	0.1
 License:	BSD
 Source0:	http://www.asmallorange.com/downloads/mod_bandwidth-%{version}.tar.gz
 # Source0-md5:	032463ee6d16335d8e969f83a3da059e
-Group:		Networking/Daemons
+Group:		Networking/Daemons/HTTP
 URL:		http://www.asmallorange.com/products/opensource/mod_bandwidth.php
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
